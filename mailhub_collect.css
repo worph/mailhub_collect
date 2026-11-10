@@ -1,0 +1,18 @@
+/* MailHub: "Collect from mailbox" toolbar button (Font Awesome's address-book, from
+   the Elastic family's "Icons" font) and its progress bar. */
+.toolbar a.button.mh-collect:before {
+    content: "\f2b9";
+}
+.mh-collect-progress {
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(127, 127, 127, .25);
+    overflow: hidden;
+    margin: 1em 0 .5em;
+}
+#mh-collect-bar {
+    height: 100%;
+    width: 0;
+    background: #37beff;
+    transition: width .3s;
+}
